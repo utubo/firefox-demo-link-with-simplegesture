@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Demo Link with Simple Gesture",
+  "description": "Demo Link with Simple Gesture",
+  "version": "1.0.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "linkwithsg@utb.dip.jp",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "host_permissions": ["<all_urls>"],
+
+  "permissions": [ "scripting" ]
+}
+
